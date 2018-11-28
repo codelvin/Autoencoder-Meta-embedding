@@ -1,0 +1,13 @@
+**/*.pyc
+.vscode/
+.vs/
+__pycache__/
+graphs/
+log/
+results/
+evaluations/
+checkpoints/
+**/nohup.out
+raw_data/
+**/*.csv
+**/*.txt
