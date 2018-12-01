@@ -4,6 +4,7 @@
 __pycache__/
 graphs/
 log/
+**/*.log
 results/
 evaluations/
 checkpoints/
