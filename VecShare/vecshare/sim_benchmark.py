@@ -26,30 +26,28 @@ def _eval_all(emb_simset):
 def _eval_sim(testfile,inp_emb):
     test, emb = np.empty(0), np.empty(0)
     testdrop = np.empty(0)
-    spearman_corr = 0
     mean_vec = np.mean(np.asarray(list(inp_emb.values()) ), axis = 0)
 
     with open(testfile, 'r') as comp_test:
         tests_csv = csv.reader(comp_test)
-        total = 0
-        cnt=0
+        
         for line in tests_csv:
-            total+=1
             try:
                 word1, word2 = line[0], line[1]
             except:
                 print (line)
-            wordvec_1 = inp_emb[word1] if word1 in inp_emb else mean_vec
-            wordvec_2 = inp_emb[word2] if word2 in inp_emb else mean_vec
-            if word1 not in inp_emb and word2 not in inp_emb:
-                cnt+=1
+            if word1 in inp_emb and word2 in inp_emb:
+                wordvec_1 = inp_emb[word1]
+                wordvec_2 = inp_emb[word2]
+            else:
+                continue
+                
             test = np.append(test, float(line[2]))
             if np.any(wordvec_1) and np.any(wordvec_2):
                 emb = np.append(emb, np.dot(wordvec_1, wordvec_2))
             else:
                 emb = np.append(emb, 0)
-        print ("Total word pairs: {0}, missing: {1}".format(total, cnt))
-    spearman_corr += scipy.stats.spearmanr(test, emb).correlation
+    spearman_corr = scipy.stats.spearmanr(test, emb).correlation
         
             
 #             if (word1 in inp_emb) and (word2 in inp_emb):
