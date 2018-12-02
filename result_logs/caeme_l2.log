@@ -1,0 +1,18 @@
+b'Skipping line 15959: expected 401 fields, saw 402\n'
+b'Skipping line 21450: expected 401 fields, saw 402\n'
+b'Skipping line 34378: expected 401 fields, saw 402\n'
+b'Skipping line 54832: expected 401 fields, saw 402\n'
+b'Skipping line 57447: expected 401 fields, saw 402\nSkipping line 58563: expected 401 fields, saw 402\n'
+b'Skipping line 62736: expected 401 fields, saw 402\n'
+b'Skipping line 81056: expected 401 fields, saw 402\nSkipping line 81862: expected 401 fields, saw 402\n'
+b'Skipping line 86128: expected 401 fields, saw 402\n'
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/mturk-287.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/verb-143.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/wordsim353.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/mc-30.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/MEN_natural_full.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/MTURK-771.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/SimLex-999.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/SimVerb-3500.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/stanford_rareword.csv
+{'score': 0.5684242987929065, 'mturk-287': 0.663738427568828, 'verb-143': 0.4192671703002495, 'wordsim353': 0.7008054136934019, 'mc-30': 0.7993769222506549, 'men_natural_full': 0.8001776995897604, 'mturk-771': 0.6808047752022546, 'simlex-999': 0.4321314053104069, 'simverb-3500': 0.31772998340151576, 'stanford_rareword': 0.5327395152768347}

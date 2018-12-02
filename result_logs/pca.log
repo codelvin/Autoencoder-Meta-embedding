@@ -1,0 +1,27 @@
+b'Skipping line 29949: expected 301 fields, saw 302\n'
+b'Skipping line 35825: expected 301 fields, saw 302\n'
+b'Skipping line 47344: expected 301 fields, saw 302\nSkipping line 48936: expected 301 fields, saw 302\n'
+b'Skipping line 89824: expected 301 fields, saw 302\n'
+b'Skipping line 90356: expected 301 fields, saw 302\nSkipping line 91282: expected 301 fields, saw 302\n'
+b'Skipping line 93262: expected 301 fields, saw 302\n'
+b'Skipping line 95561: expected 301 fields, saw 302\n'
+b'Skipping line 104152: expected 301 fields, saw 302\n'
+b'Skipping line 135938: expected 301 fields, saw 302\n'
+b'Skipping line 141814: expected 301 fields, saw 302\n'
+b'Skipping line 153333: expected 301 fields, saw 302\n'
+b'Skipping line 154925: expected 301 fields, saw 302\n'
+b'Skipping line 195813: expected 301 fields, saw 302\nSkipping line 196345: expected 301 fields, saw 302\n'
+b'Skipping line 197271: expected 301 fields, saw 302\n'
+b'Skipping line 199251: expected 301 fields, saw 302\n'
+b'Skipping line 201550: expected 301 fields, saw 302\n'
+b'Skipping line 210141: expected 301 fields, saw 302\n'
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/mturk-287.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/verb-143.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/wordsim353.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/mc-30.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/MEN_natural_full.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/MTURK-771.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/SimLex-999.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/SimVerb-3500.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/stanford_rareword.csv
+{'score': 0.579001835521963, 'mturk-287': 0.6677914056904148, 'verb-143': 0.48614956328492515, 'wordsim353': 0.702152424614145, 'mc-30': 0.7546456412449808, 'men_natural_full': 0.8040654762070055, 'mturk-771': 0.6967782957518802, 'simlex-999': 0.424577442284534, 'simverb-3500': 0.32533571217043383, 'stanford_rareword': 0.5251643641723654}

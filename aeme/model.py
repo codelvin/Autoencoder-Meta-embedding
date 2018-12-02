@@ -287,9 +287,9 @@ class DAEME(AbsModel):
         self.outs = [tf.layers.dense(encoder, dim) for encoder, dim in zip(self.encoders, self.dims)]
 
     def loss(self):
-        los = tf.add_n([self.mae(x, y, f) for x, y, f in zip(self.srcs, self.outs, self.factors[:-1])])
+        los = tf.add_n([self.mse(x, y, f) for x, y, f in zip(self.srcs, self.outs, self.factors[:-1])])
         for x, y in combinations(self.encoders, 2):
-            los = tf.add(los, self.mae(x, y, self.factors[-1]))
+            los = tf.add(los, self.mse(x, y, self.factors[-1]))
         return los
 
 class CAEME(AbsModel):
@@ -305,7 +305,7 @@ class CAEME(AbsModel):
         self.outs = [tf.layers.dense(self.meta, dim) for dim in self.dims]
 
     def loss(self):
-        return tf.add_n([self.mae(x, y, f) for x, y, f in zip(self.srcs, self.outs, self.factors)])
+        return tf.add_n([self.mse(x, y, f) for x, y, f in zip(self.srcs, self.outs, self.factors)])
 
 class AAEME(AbsModel):
     """ Averaged Autoencoded Meta-Embedding.

@@ -1,10 +1,13 @@
-**/*.pyc
+*.pyc
 .vscode/
 .vs/
 __pycache__/
 graphs/
 log/
-**/*.log
+*.out
+*.txt
+*.log
+!result_logs/*.log
 results/
 evaluations/
 checkpoints/

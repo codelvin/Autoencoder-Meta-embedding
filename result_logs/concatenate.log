@@ -1,0 +1,30 @@
+b'Skipping line 14906: expected 601 fields, saw 602\n'
+b'Skipping line 19643: expected 601 fields, saw 602\n'
+b'Skipping line 34696: expected 601 fields, saw 602\n'
+b'Skipping line 46746: expected 601 fields, saw 602\n'
+b'Skipping line 52669: expected 601 fields, saw 602\n'
+b'Skipping line 79212: expected 601 fields, saw 602\n'
+b'Skipping line 81817: expected 601 fields, saw 602\n'
+b'Skipping line 93293: expected 601 fields, saw 602\n'
+b'Skipping line 97125: expected 601 fields, saw 602\n'
+b'Skipping line 100606: expected 601 fields, saw 602\n'
+b'Skipping line 120895: expected 601 fields, saw 602\n'
+b'Skipping line 125632: expected 601 fields, saw 602\n'
+b'Skipping line 140685: expected 601 fields, saw 602\n'
+b'Skipping line 152735: expected 601 fields, saw 602\n'
+b'Skipping line 158658: expected 601 fields, saw 602\n'
+b'Skipping line 185201: expected 601 fields, saw 602\n'
+b'Skipping line 187806: expected 601 fields, saw 602\n'
+b'Skipping line 199282: expected 601 fields, saw 602\n'
+b'Skipping line 203114: expected 601 fields, saw 602\n'
+b'Skipping line 206595: expected 601 fields, saw 602\n'
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/mturk-287.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/verb-143.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/wordsim353.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/mc-30.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/MEN_natural_full.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/MTURK-771.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/SimLex-999.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/SimVerb-3500.csv
+/home/u15410/yizhen/emsemble/AutoencodedMetaEmbedding/VecShare/vecshare/Test_Input/stanford_rareword.csv
+{'score': 0.5684417827267524, 'mturk-287': 0.6880337909738327, 'verb-143': 0.4338153112560403, 'wordsim353': 0.688038176061203, 'mc-30': 0.7679982624407043, 'men_natural_full': 0.7997540001000499, 'mturk-771': 0.6916374077848162, 'simlex-999': 0.42318144337974234, 'simverb-3500': 0.31047435428405235, 'stanford_rareword': 0.512599777974283}
